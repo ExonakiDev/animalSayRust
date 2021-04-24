@@ -4,6 +4,9 @@ extern crate structopt_derive;
 
 use structopt::StructOpt;
 use colored::*;
+use failure::ResultExt;
+use exitfailure::ExitFailure;
+use std::io::{self, Read, Write};
 
 const MOOSE : &str =
 "   \\|/    \\|/
@@ -38,11 +41,22 @@ struct Options {
     /// Use other ascii animals by placing in a .txt file
     /// by default animal.txt has monke art
     file: Option<std::path::PathBuf>,
+
+    #[structopt(short = "i", long = "stdin")]
+    /// Read msg from stdin
+    stdin: bool,
 }
 
-fn main() -> Result<(), Box<dyn std::error::Error>> {
+fn main() -> Result<(), ExitFailure> {
     let options = Options::from_args();
-    let message = options.message;
+    let mut message = "".to_string();
+    if options.stdin {
+        io::stdin().read_to_string(&mut message);
+        message.pop();
+    }
+    else{
+        message = options.message;
+    }
     // let message = std::env::args().nth(1)
     //     .expect("Missing text to be said. Usage: animalsay <msg>");
 
@@ -53,7 +67,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     else {
         match &options.file {
             Some(path) => {
-                let alt = std::fs::read_to_string(path)?;
+                let alt = std::fs::read_to_string(path)
+                .with_context(|_| format!("could not find file {:?}", path))?;
                 print_message_bubble(message);
                 println!("{}", alt.to_string().bright_yellow());
             }

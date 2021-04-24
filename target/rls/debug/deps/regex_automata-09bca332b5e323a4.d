@@ -1,0 +1,11 @@
+/home/exonaki/rust_project/animalsay/target/rls/debug/deps/regex_automata-09bca332b5e323a4.rmeta: /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/lib.rs /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/classes.rs /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/dense.rs /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/dfa.rs /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/regex.rs /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/sparse.rs /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/state_id.rs
+
+/home/exonaki/rust_project/animalsay/target/rls/debug/deps/regex_automata-09bca332b5e323a4.d: /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/lib.rs /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/classes.rs /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/dense.rs /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/dfa.rs /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/regex.rs /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/sparse.rs /home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/state_id.rs
+
+/home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/lib.rs:
+/home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/classes.rs:
+/home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/dense.rs:
+/home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/dfa.rs:
+/home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/regex.rs:
+/home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/sparse.rs:
+/home/exonaki/.cargo/registry/src/github.com-1ecc6299db9ec823/regex-automata-0.1.9/src/state_id.rs:
