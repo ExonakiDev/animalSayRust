@@ -3,6 +3,7 @@ name = "animalsay"
 version = "0.1.0"
 authors = ["exonaki <rsanyal17@yahoo.co.in>"]
 edition = "2018"
+exclude = ["target"]
 description = "Adapted from danlogs youtube video tutorial"
 readme = "README.md"
 license = "GPL-3.0"
